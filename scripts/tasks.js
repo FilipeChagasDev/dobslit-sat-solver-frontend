@@ -1,5 +1,6 @@
 //const host = 'http://127.0.0.1:5000'
-const host = 'http://dobsat-app-api-env.eba-hjimnqd4.us-east-1.elasticbeanstalk.com'
+//const host = 'http://dobsat-app-api-env.eba-hjimnqd4.us-east-1.elasticbeanstalk.com'
+const host = 'https://cors-everywhere.herokuapp.com/http://dobsat-app-api-env.eba-hjimnqd4.us-east-1.elasticbeanstalk.com'
 
 newTaskURL = (token) => `${host}/task/new?token=${token}`
 getTaskURL = (task_id, token) => `${host}/task/get/${task_id}?token=${token}`
